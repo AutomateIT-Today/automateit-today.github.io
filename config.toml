@@ -1,0 +1,52 @@
+baseURL = "http://automateit.today"
+languageCode = "en-us"
+title = "Automating IT"
+copyright = "n/a"
+theme = "npq-hugo"
+pygmentsUseClasses=true
+
+[params]
+author = "AutomateIT"
+description = "n/a"
+keywords = "hugo blog automation IT"
+useAvatar = true
+microBlogSection = "posts"
+displayMicroBlog = true
+displayRecent = true
+displayHomeContent = false
+recentMax = 4
+mail = "automatizeIT.today@gmail.com"
+phone = ""
+formspreeID = ""
+
+[menu]
+[[menu.main]]
+name = "home"
+pre = "<i class=\"fas fa-home fa-sm\"></i>"
+url = "/"
+weight = -9
+[[menu.main]]
+name = "blog"
+pre = "<i class=\"fas fa-keyboard fa-sm\"></i>"
+url = "/blog/"
+weight = -8
+[[menu.main]]
+name = "tags"
+pre = "<i class=\"fas fa-tags fa-sm\"></i>"
+url = "/tags"
+weight = -7
+[[menu.main]]
+name = "github"
+pre = "<i class=\"fas fa-github fa-sm\"></i>"
+url = "https://github.com/automateit-today"
+weight = -6
+[[menu.main]]
+name = "RSS"
+pre = "<i class=\"fas fa-rss fa-sm\"></i>"
+url = "/index.xml"
+weight = -4
+[[menu.main]]
+name = "RSS"
+pre = "<i class=\"fas fa-envelope fa-sm\"></i>"
+url = "/contact"
+weight = -1
